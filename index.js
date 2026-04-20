@@ -1,16 +1,16 @@
-// VERSION MASTER
 function addition(a, b) {
-  return a + b;
+  const x = Number(a), y = Number(b);
+  if (Number.isNaN(x) || Number.isNaN(y)) return 0;
+  return x + y;
 }
 
-// AUTRE MODIF ICI
-console.log("Master branch");
-
-// MODIF ICI (ajoute un texte différent)
-console.log("Feature branch");
+function soustraction(a, b) {
+  return a - b;
+}
 
 if (require.main === module) {
-  console.log("Résultat:", addition(5, 3));
+  console.log("Résultat addition:", addition(5, 3));
+  console.log("Résultat soustraction:", soustraction(5, 3));
 }
 
-module.exports = { addition };
+module.exports = { addition, soustraction };
