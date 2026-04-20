@@ -1,3 +1,4 @@
+
 # Mon Projet Node
 
 ## Description
@@ -12,3 +13,22 @@ Il permet de manipuler Git (branches, merge, rebase, conflits).
 ## Installation
 ```bash
 npm install
+
+# TP Git + Node.js
+
+## 📌 Objectif
+Ce TP consiste à utiliser Git dans un projet Node.js afin de maîtriser :
+- les branches
+- les fusions (merge)
+- le rebase
+- le cherry-pick
+- la gestion des conflits
+
+---
+
+## ⚙️ Initialisation du projet
+
+```bash
+git init
+npm init -y
+
