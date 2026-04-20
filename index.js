@@ -1,5 +1,6 @@
+// addition(a, b) -> retourne la somme
 function addition(a, b) {
-  return a + b;
+  return a + b; // simple addition
 }
 
 if (require.main === module) {
