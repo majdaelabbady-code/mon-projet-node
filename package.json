@@ -1,3 +1,4 @@
+
 {
   "name": "mon-projet-node",
   "version": "1.0.0",
@@ -24,3 +25,8 @@
   },
   "homepage": "https://github.com/majdaelabbady-code/mon-projet-node#readme"
 }
+
+"scripts": {
+  "start": "node index.js"
+}
+
