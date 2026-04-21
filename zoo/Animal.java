@@ -1,3 +1,4 @@
+package zoo;
 abstract class Animal { 
     private String nom; 
     public Animal(String nom) { 

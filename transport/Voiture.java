@@ -1,5 +1,4 @@
-package exercice12;
-
+package transport;
 public class Voiture extends Vehicule {
     private int nombreDePortes;
 

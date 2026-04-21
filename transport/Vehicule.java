@@ -1,4 +1,4 @@
-package exercice12;
+package transport;
 
 public abstract class Vehicule {
     private String marque;
