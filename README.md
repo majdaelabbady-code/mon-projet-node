@@ -24,11 +24,13 @@ Ce TP consiste à utiliser Git dans un projet Node.js afin de maîtriser :
 - le cherry-pick
 - la gestion des conflits
 
----
+
 
 ## ⚙️ Initialisation du projet
 
 ```bash
 git init
 npm init -y
+
+"# Mon Projet Node" 
 

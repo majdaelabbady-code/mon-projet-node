@@ -10,5 +10,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "type": "commonjs"
+}
+
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majdaelabbady-code/mon-projet-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/majdaelabbady-code/mon-projet-node/issues"
+  },
+  "homepage": "https://github.com/majdaelabbady-code/mon-projet-node#readme"
 }
